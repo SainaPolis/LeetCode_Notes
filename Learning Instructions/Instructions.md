@@ -259,31 +259,17 @@ More about queue Operations: [queues](https://github.com/SainaPolis/LeetCode_Not
 
 ## 5. Two Pointers
 
-The Two Pointers pattern involves using two pointers to iterate through an array or list, often used to find pairs or elements that meet specific criteria.
+The Two Pointers pattern utilizes two pointers to traverse an array or list and is commonly employed to identify pairs or elements that fulfill specific conditions.
 
-Use this pattern when dealing with sorted arrays or lists where you need to find pairs that satisfy a specific condition.
+This approach is particularly effective when working with sorted arrays or lists, where you need to find pairs that meet a specific criterion or compare two elements.
 
-#### Sample Problem:
+#### Great source to learn from:
+[Video](https://www.youtube.com/watch?v=-gjxg6Pln50&t=564s)
 
-Find two numbers in a sorted array that add up to a target value.
+#### Great source for two pointer categories:
+[categories](https://leetcode.com/discuss/study-guide/1688903/solved-all-two-pointers-problems-in-100-days)
 
-#### Example:
 
-Input: nums = [1, 2, 3, 4, 6], target = 6
-
-Output: [1, 3]
-
-#### Explanation:
-
-Initialize two pointers, one at the start (left) and one at the end (right) of the array.
-
-Check the sum of the elements at the two pointers.
-
-If the sum equals the target, return the indices.
-
-If the sum is less than the target, move the left pointer to the right.
-
-If the sum is greater than the target, move the right pointer to the left.
 
 ```python
 
